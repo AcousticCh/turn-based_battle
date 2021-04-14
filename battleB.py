@@ -11,6 +11,7 @@ pika = Monster(700, 100, 300, 300, 400)
 # change pika to enemy that functions like player object
 
 def battle_start():
+	sub.run("clear")
 	print("Create your monster!")
 	print("You have a total of 2000 points to distribute between\nmax health, defense, and 3 attacks")
 	points_available = 2000
