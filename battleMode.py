@@ -1,4 +1,4 @@
-from battleA import Monster
+from monsterClass import Monster
 import random
 import subprocess as sub
 
