@@ -9,6 +9,7 @@ class Monster(object):
 		self.attack1 = attack1
 		self.attack2 = attack2
 		self.attack3 = attack3
+		
 		if self.current_health > self.max_health:
 			self.current_health = self.max_health
 		if self.max_health + self.defense + self.attack1 + self.attack2 + self.attack3 > 2000:

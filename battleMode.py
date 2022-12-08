@@ -64,6 +64,8 @@ def player_turn(player):
 	if move_choice == "3":
 		pika.current_health -= player.attack3 - pika.defense
 		print(f"Pickachu current health is {pika.current_health}")
+
+		
 def monster_turn(player):
 	move_choice = random.randint(1, 3)
 	if move_choice == 1:
